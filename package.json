@@ -6,8 +6,21 @@
   "license": "ISC",
   "author": "",
   "type": "commonjs",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
+    "start": "electron src/main/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BYjosep/Proyecto-Electron.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/BYjosep/Proyecto-Electron/issues"
+  },
+  "homepage": "https://github.com/BYjosep/Proyecto-Electron#readme",
+  "dependencies": {
+    "electron": "^34.2.0"
   }
 }
